@@ -1,0 +1,8 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "tischplatte"
+	"$bumpmap" "tischplatte-normal"
+        "$envmap" "env_cubemap"
+        "$fresnelreflection" 0.01
+        "$envmaptint" "[ 0.1 0.1 0.1 ]"
+}

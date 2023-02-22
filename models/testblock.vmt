@@ -1,0 +1,5 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "Models/de_neuhausen/testblock"
+	"$translucent" 0
+}

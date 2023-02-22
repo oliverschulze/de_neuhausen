@@ -1,0 +1,7 @@
+"LightmappedGeneric" { 
+  "$basetexture" "fenster_glass_80_2"
+  "$normalmap" "fenster_glass_80_2_normal"
+  "$envmap" "env_cubemap"
+  "$fresnelreflection" 0.8
+  "$translucent" 1
+}

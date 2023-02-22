@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "Models/de_neuhausen/xwing"
+        "$halflambert" 1
+	"$translucent" 0
+        "$phong" 1
+}

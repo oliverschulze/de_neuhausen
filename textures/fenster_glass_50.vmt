@@ -1,0 +1,13 @@
+"LightmappedReflective" { 
+  "$RefractTexture" _rt_WaterRefraction
+  "$ReflectTexture" _rt_WaterReflection
+  "$basetexture" "fenster_glass_50"
+  "$normalmap" "fenster_glass_50_normal"
+  "$envmapmask" "fenster_glass_50"
+  "$refractamount" .01
+  "$reflectamount" 1
+  "$alpha" 0.1
+  "$fresnelpower" 0.5
+  "$reflectance" 1
+  "$translucent" 1
+}

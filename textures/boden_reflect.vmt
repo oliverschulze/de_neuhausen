@@ -1,0 +1,9 @@
+"LightmappedReflective" { 
+  "$RefractTexture" _rt_WaterRefraction
+  "$ReflectTexture" _rt_WaterReflection
+  "$basetexture" "boden"
+  "$normalmap" "boden_bump"
+  "$refractamount" .2
+  "$reflectamount" .3
+  "$fresnelpower" 5
+}

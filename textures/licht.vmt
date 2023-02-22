@@ -1,0 +1,7 @@
+"LightmappedGeneric" { 
+  "$basetexture" "weiss"
+  "$selfillum" 1
+  $EmissiveBlendEnabled 1					// Enable EmissiveBlend. Like $selfillum 1	
+  $EmissiveBlendStrength 1 					// how strong the entire glow effect is. 
+  $EmissiveBlendTexture weiss
+}

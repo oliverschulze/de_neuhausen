@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "Models/de_neuhausen/sofa-stoff"
+	"$translucent" 0
+	$color2 "[ 2.0 2.0 2.0 ]"
+}
