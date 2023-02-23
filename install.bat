@@ -18,6 +18,9 @@ copy models\sofa\*.vtf "C:\Program Files (x86)\Steam\steamapps\common\Counter-St
 copy models\klavier\*.vmt "C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Source\cstrike\materials\models\de_neuhausen"
 copy models\klavier\*.vtf "C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Source\cstrike\materials\models\de_neuhausen"
 
+copy models\wohnung\*.vmt "C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Source\cstrike\materials\models\de_neuhausen"
+copy models\wohnung\*.vtf "C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Source\cstrike\materials\models\de_neuhausen"
+
 rem cd models
 rem call convert.bat wohnung.qc
 rem cd ..
