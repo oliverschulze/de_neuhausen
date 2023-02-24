@@ -1,0 +1,4 @@
+"LightmappedGeneric" { 
+  "$basetexture" "weiss_plastik"
+  "$bumpmap" "rauschen"
+}

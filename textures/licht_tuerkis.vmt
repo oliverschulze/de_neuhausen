@@ -1,0 +1,7 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "licht_basis_radial"
+	$selfillum 1
+        $selfillumtint "[ 0.1 1.0 1.0 ]"
+        $color "[ 0 0 1 ]"
+}
