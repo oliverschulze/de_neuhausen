@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "Models/de_neuhausen/treppe-gelaender"
+	"$translucent" 0
+	 $color2 "[ 1 1 1 ]"
+}
