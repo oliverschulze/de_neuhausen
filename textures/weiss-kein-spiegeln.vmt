@@ -1,0 +1,4 @@
+"LightmappedGeneric" { 
+  "$basetexture" "weiss"
+  "$normalmap" "fenster_glass_80_2_normal"
+}
