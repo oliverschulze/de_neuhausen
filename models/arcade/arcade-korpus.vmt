@@ -2,5 +2,5 @@
 {
 	"$basetexture" "Models/de_neuhausen/arcade-korpus"
 	"$translucent" 0
-	 $color2 "[ 1 1 1 ]"
+	 $color2 "[ 2 2 2 ]"
 }

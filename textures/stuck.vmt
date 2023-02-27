@@ -1,0 +1,5 @@
+"LightmappedGeneric" { 
+  "$basetexture" "stuck"
+  "$bumpmap" "stuck_normal"
+   $color2 "[ 4 4 4 ]"
+}

@@ -1,0 +1,7 @@
+"LightmappedGeneric" { 
+  "$basetexture" "balkon-metall"
+  "$normalmap" "balkon-metall_normal"
+  "$envmap" "env_cubemap"
+  "$fresnelreflection" 0.8
+  "$translucent" 0
+}
