@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "Models/de_neuhausen/ikea-stuhl"
+        "$halflambert" 1
+	"$translucent" 0
+        $color2 "[ 2.0 2.0 2.0 ]"
+}

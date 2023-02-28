@@ -27,6 +27,9 @@ copy models\treppe\*.vtf "C:\Program Files (x86)\Steam\steamapps\common\Counter-
 copy models\arcade\*.vmt "C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Source\cstrike\materials\models\de_neuhausen"
 copy models\arcade\*.vtf "C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Source\cstrike\materials\models\de_neuhausen"
 
+copy models\ikea-stuhl\*.vmt "C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Source\cstrike\materials\models\de_neuhausen"
+copy models\ikea-stuhl\*.vtf "C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Source\cstrike\materials\models\de_neuhausen"
+
 copy prefabs\*.vmf "C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Source\bin\Prefabs"
 
 rem cd models
