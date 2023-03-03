@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "Models/de_neuhausen/irobot"
+	"$translucent" 0
+	$color2 "[ 1.0 1.0 1.0 ]"
+}
