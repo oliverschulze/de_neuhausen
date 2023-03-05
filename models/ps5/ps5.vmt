@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "Models/de_neuhausen/ps5"
+	"$translucent" 0
+        $color2 "[ 1 1 1 ]"
+}
