@@ -1,0 +1,1 @@
+ffmpeg\bin\ffmpeg.exe -i galaxian.mp4 -filter:v fps=5 -vf scale=1280:720 -preset slow -crf 18 galaxian-%03d.jpg

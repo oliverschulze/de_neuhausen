@@ -1,0 +1,16 @@
+"UnlitGeneric"
+{
+	"$basetexture" "alexa-screens"
+	"$translucent" 0
+	"$selfillum" 1
+         "$surfaceprop" "Default"
+         "Proxies"
+         {
+           "AnimatedTexture"
+           {
+             "animatedTextureVar" "$basetexture"
+             "animatedTextureFrameNumVar" "$frame"
+             "animatedTextureFrameRate" "0.025"
+           }
+         }
+}
