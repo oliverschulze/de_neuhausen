@@ -9,3 +9,4 @@ $surfaceprop "arcade-leucht"
 $ambientboost
 
 $sequence "idle" "arcade-leucht.smd"
+$collisionmodel "arcade-leucht-phy.smd" { $concave }

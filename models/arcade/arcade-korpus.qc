@@ -9,3 +9,4 @@ $surfaceprop "arcade-korpus"
 $ambientboost
 
 $sequence "idle" "arcade-korpus.smd"
+$collisionmodel "arcade-korpus-phy.smd" { $concave }

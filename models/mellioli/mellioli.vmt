@@ -1,0 +1,8 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "Models/de_neuhausen/mellioli"
+	"$translucent" 0
+        $color2 "[ 1 1 1 ]"
+        $selfillum 1
+        $selfillummask "Models/de_neuhausen/mellioli-leucht"
+}

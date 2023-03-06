@@ -9,3 +9,4 @@ $surfaceprop "arcade-chrom"
 $ambientboost
 
 $sequence "idle" "arcade-chrom.smd"
+$collisionmodel "arcade-chrom-phy.smd" { $concave }
