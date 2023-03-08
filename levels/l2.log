@@ -52429,3 +52429,1087 @@ Level flags = 2
 Total triangle count: 22953
 Writing c:\users\olive\documents\github\de_neuhausen\levels\l2.bsp
 6 minutes, 45 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Source\cstrike\materials
+Loading c:\users\olive\documents\github\de_neuhausen\levels\l2.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\common\counter-strike source\cstrike\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing c:\users\olive\documents\github\de_neuhausen\levels\l2.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_08*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_08*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (114) (325746 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 1583 texinfos to 835
+Reduced 179 texdatas to 144 (5088 bytes to 4092)
+Writing c:\users\olive\documents\github\de_neuhausen\levels\l2.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\olive\documents\github\de_neuhausen\levels\l2.bsp', but we don't own that location. Allowing.
+Wrote ZIP buffer, estimated size 2834537, actual size 2809131
+3 minutes, 50 seconds elapsed
+
+
+
+12 threads
+reading c:\users\olive\documents\github\de_neuhausen\levels\l2.bsp
+reading c:\users\olive\documents\github\de_neuhausen\levels\l2.prt
+2324 portalclusters
+9134 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 248825 visible clusters (5.56%)
+Total clusters visible: 4475986
+Average clusters visible: 1925
+Building PAS...
+Average clusters audible: 2324
+visdatasize:1315365  compressed from 1375808
+writing c:\users\olive\documents\github\de_neuhausen\levels\l2.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\olive\documents\github\de_neuhausen\levels\l2.bsp', but we don't own that location. Allowing.
+1 second elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[2 texlights parsed from 'lights.rad']
+
+Loading c:\users\olive\documents\github\de_neuhausen\levels\l2.bsp
+8576 faces
+23 degenerate faces
+2497763 square feet [359677888.00 square inches]
+9 Displacements
+46 Square Feet [6767.41 Square Inches]
+356 direct lights
+0...1...2...3...4...5...6...7...8...9...10Build Patch/Sample Hash Table(s).....Done<0.0546 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   8/1024          384/49152    ( 0.8%) 
+brushes                539/8192         6468/98304    ( 6.6%) 
+brushsides           10047/65536       80376/524288   (15.3%) 
+planes               17504/65536      350080/1310720  (26.7%) 
+vertexes             12612/65536      151344/786432   (19.2%) 
+nodes                 4587/65536      146784/2097152  ( 7.0%) 
+texinfos               835/12288       60120/884736   ( 6.8%) 
+texdata                144/2048         4608/65536    ( 7.0%) 
+dispinfos                9/0            1584/0        ( 0.0%) 
+disp_verts             225/0            4500/0        ( 0.0%) 
+disp_tris              288/0             576/0        ( 0.0%) 
+disp_lmsamples        1464/0            1464/0        ( 0.0%) 
+faces                 8576/65536      480256/3670016  (13.1%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             3547/65536      198632/3670016  ( 5.4%) 
+leaves                4596/65536      147072/2097152  ( 7.0%) 
+leaffaces            11438/65536       22876/131072   (17.5%) 
+leafbrushes           2043/65536        4086/131072   ( 3.1%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges            56152/512000     224608/2048000  (11.0%) 
+edges                30158/256000     120632/1024000  (11.8%) 
+LDR worldlights        356/8192        31328/720896   ( 4.3%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            539/32768        5390/327680   ( 1.6%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          8928/65536       17856/131072   (13.6%) 
+cubemapsamples          31/1024          496/16384    ( 3.0%) 
+overlays                 6/512          2112/180224   ( 1.2%) 
+LDR lightdata         [variable]    29397092/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]     1315365/16777216 ( 7.8%) 
+entdata               [variable]      143887/393216   (36.6%) 
+LDR ambient table     4596/65536       18384/262144   ( 7.0%) 
+HDR ambient table     4596/65536       18384/262144   ( 7.0%) 
+LDR leaf ambient     15632/65536      437696/1835008  (23.9%) 
+HDR leaf ambient      4596/65536      128688/1835008  ( 7.0%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/6090     ( 0.0%) 
+pakfile               [variable]     2809131/0        ( 0.0%) 
+physics               [variable]      325746/4194304  ( 7.8%) 
+physics terrain       [variable]        1025/1048576  ( 0.1%) 
+
+Level flags = 0
+
+Total triangle count: 23540
+Writing c:\users\olive\documents\github\de_neuhausen\levels\l2.bsp
+44 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Source\cstrike\materials
+Loading c:\users\olive\documents\github\de_neuhausen\levels\l2.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\common\counter-strike source\cstrike\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (1)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing c:\users\olive\documents\github\de_neuhausen\levels\l2.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_08*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_08*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (115) (325746 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 1583 texinfos to 835
+Reduced 179 texdatas to 144 (5088 bytes to 4092)
+Writing c:\users\olive\documents\github\de_neuhausen\levels\l2.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\olive\documents\github\de_neuhausen\levels\l2.bsp', but we don't own that location. Allowing.
+Wrote ZIP buffer, estimated size 2834537, actual size 2809131
+3 minutes, 51 seconds elapsed
+
+
+
+12 threads
+reading c:\users\olive\documents\github\de_neuhausen\levels\l2.bsp
+reading c:\users\olive\documents\github\de_neuhausen\levels\l2.prt
+2330 portalclusters
+9161 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 250887 visible clusters (5.58%)
+Total clusters visible: 4497334
+Average clusters visible: 1930
+Building PAS...
+Average clusters audible: 2330
+visdatasize:1323233  compressed from 1379360
+writing c:\users\olive\documents\github\de_neuhausen\levels\l2.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\olive\documents\github\de_neuhausen\levels\l2.bsp', but we don't own that location. Allowing.
+1 second elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[2 texlights parsed from 'lights.rad']
+
+Loading c:\users\olive\documents\github\de_neuhausen\levels\l2.bsp
+8584 faces
+23 degenerate faces
+2497773 square feet [359679360.00 square inches]
+9 Displacements
+46 Square Feet [6767.41 Square Inches]
+8561 patches before subdivision
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+270235 patches after subdivision
+355 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 122010580, max 2403
+transfer lists: 930.9 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(730507, 777362, 961500)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(324886, 369657, 416156)
+Build Patch/Sample Hash Table(s).....Done<0.0685 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Computing static prop lighting : 00...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   8/1024          384/49152    ( 0.8%) 
+brushes                539/8192         6468/98304    ( 6.6%) 
+brushsides           10047/65536       80376/524288   (15.3%) 
+planes               17508/65536      350160/1310720  (26.7%) 
+vertexes             12632/65536      151584/786432   (19.3%) 
+nodes                 4595/65536      147040/2097152  ( 7.0%) 
+texinfos               835/12288       60120/884736   ( 6.8%) 
+texdata                144/2048         4608/65536    ( 7.0%) 
+dispinfos                9/0            1584/0        ( 0.0%) 
+disp_verts             225/0            4500/0        ( 0.0%) 
+disp_tris              288/0             576/0        ( 0.0%) 
+disp_lmsamples        1464/0            1464/0        ( 0.0%) 
+faces                 8584/65536      480704/3670016  (13.1%) 
+hdr faces             8584/65536      480704/3670016  (13.1%) 
+origfaces             3547/65536      198632/3670016  ( 5.4%) 
+leaves                4604/65536      147328/2097152  ( 7.0%) 
+leaffaces            11450/65536       22900/131072   (17.5%) 
+leafbrushes           2048/65536        4096/131072   ( 3.1%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges            56192/512000     224768/2048000  (11.0%) 
+edges                30182/256000     120728/1024000  (11.8%) 
+LDR worldlights          0/8192            0/720896   ( 0.0%) 
+HDR worldlights        355/8192        31240/720896   ( 4.3%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            541/32768        5410/327680   ( 1.7%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          8955/65536       17910/131072   (13.7%) 
+cubemapsamples          31/1024          496/16384    ( 3.0%) 
+overlays                 6/512          2112/180224   ( 1.2%) 
+LDR lightdata         [variable]           0/0        ( 0.0%) 
+HDR lightdata         [variable]    29398408/0        ( 0.0%) 
+visdata               [variable]     1323233/16777216 ( 7.9%) 
+entdata               [variable]      143471/393216   (36.5%) 
+LDR ambient table     4604/65536       18416/262144   ( 7.0%) 
+HDR ambient table     4604/65536       18416/262144   ( 7.0%) 
+LDR leaf ambient      4604/65536      128912/1835008  ( 7.0%) 
+HDR leaf ambient     15385/65536      430780/1835008  (23.5%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/6090     ( 0.0%) 
+pakfile               [variable]    19815939/0        ( 0.0%) 
+physics               [variable]      325746/4194304  ( 7.8%) 
+physics terrain       [variable]        1025/1048576  ( 0.1%) 
+
+Level flags = 2
+
+Total triangle count: 23564
+Writing c:\users\olive\documents\github\de_neuhausen\levels\l2.bsp
+7 minutes, 6 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Source\cstrike\materials
+Loading c:\users\olive\documents\github\de_neuhausen\levels\l2.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\common\counter-strike source\cstrike\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (1)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing c:\users\olive\documents\github\de_neuhausen\levels\l2.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_08*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_08*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (115) (325746 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 1583 texinfos to 835
+Reduced 179 texdatas to 144 (5088 bytes to 4092)
+Writing c:\users\olive\documents\github\de_neuhausen\levels\l2.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\olive\documents\github\de_neuhausen\levels\l2.bsp', but we don't own that location. Allowing.
+Wrote ZIP buffer, estimated size 2834537, actual size 2809131
+3 minutes, 51 seconds elapsed
+
+
+
+12 threads
+reading c:\users\olive\documents\github\de_neuhausen\levels\l2.bsp
+reading c:\users\olive\documents\github\de_neuhausen\levels\l2.prt
+2330 portalclusters
+9161 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Source\cstrike\materials
+Loading c:\users\olive\documents\github\de_neuhausen\levels\l2.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Error: displacement found on a(n) func_detail entity - not supported (entity 64, brush 0)
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Source\cstrike\materials
+Loading c:\users\olive\documents\github\de_neuhausen\levels\l2.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\common\counter-strike source\cstrike\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+env_cubemap pointing at deleted brushside near (1742, 692, -588)
+env_cubemap pointing at deleted brushside near (-1544, 881, 70)
+env_cubemap pointing at deleted brushside near (-1744, 389, 770)
+env_cubemap pointing at deleted brushside near (2267, -199, 410)
+env_cubemap pointing at deleted brushside near (2267, -199, 101)
+env_cubemap pointing at deleted brushside near (2263, -466, 84)
+env_cubemap pointing at deleted brushside near (1242, 829, -584)
+env_cubemap pointing at deleted brushside near (1800, 697, -588)
+env_cubemap pointing at deleted brushside near (-1643, -1315, -568)
+env_cubemap pointing at deleted brushside near (-1643, -1315, -568)
+env_cubemap pointing at deleted brushside near (-1643, -1315, -568)
+env_cubemap pointing at deleted brushside near (-1643, -1315, -568)
+env_cubemap pointing at deleted brushside near (-1643, -1315, -568)
+env_cubemap pointing at deleted brushside near (161, -887, -71)
+env_cubemap pointing at deleted brushside near (161, -887, -71)
+env_cubemap pointing at deleted brushside near (161, -887, -71)
+env_cubemap pointing at deleted brushside near (2269, -826, 53)
+env_cubemap pointing at deleted brushside near (2263, -466, 393)
+env_cubemap pointing at deleted brushside near (2255, 644, 50)
+env_cubemap pointing at deleted brushside near (1429, -724, -429)
+env_cubemap pointing at deleted brushside near (1429, -724, -429)
+env_cubemap pointing at deleted brushside near (1429, -724, -429)
+env_cubemap pointing at deleted brushside near (1429, -724, -429)
+env_cubemap pointing at deleted brushside near (1429, -724, -429)
+env_cubemap pointing at deleted brushside near (1429, -724, -429)
+env_cubemap pointing at deleted brushside near (1429, -724, -429)
+env_cubemap pointing at deleted brushside near (1763, -741, -547)
+env_cubemap pointing at deleted brushside near (1763, -741, -547)
+env_cubemap pointing at deleted brushside near (1763, -741, -547)
+env_cubemap pointing at deleted brushside near (1763, -741, -547)
+env_cubemap pointing at deleted brushside near (1763, -741, -547)
+env_cubemap pointing at deleted brushside near (1763, -741, -547)
+env_cubemap pointing at deleted brushside near (1763, -741, -547)
+env_cubemap pointing at deleted brushside near (1763, -741, -547)
+env_cubemap pointing at deleted brushside near (1763, -741, -547)
+env_cubemap pointing at deleted brushside near (1435, -1066, -547)
+env_cubemap pointing at deleted brushside near (1435, -1066, -547)
+env_cubemap pointing at deleted brushside near (1435, -1066, -547)
+env_cubemap pointing at deleted brushside near (1435, -1066, -547)
+env_cubemap pointing at deleted brushside near (1435, -1066, -547)
+env_cubemap pointing at deleted brushside near (1435, -1066, -547)
+env_cubemap pointing at deleted brushside near (1435, -1066, -547)
+env_cubemap pointing at deleted brushside near (1435, -1066, -547)
+env_cubemap pointing at deleted brushside near (1435, -1066, -547)
+env_cubemap pointing at deleted brushside near (1435, -1066, -547)
+env_cubemap pointing at deleted brushside near (1435, -1066, -547)
+env_cubemap pointing at deleted brushside near (1435, -1066, -547)
+env_cubemap pointing at deleted brushside near (1435, -1066, -547)
+env_cubemap pointing at deleted brushside near (1435, -1066, -547)
+env_cubemap pointing at deleted brushside near (1119, -722, -547)
+env_cubemap pointing at deleted brushside near (1119, -722, -547)
+env_cubemap pointing at deleted brushside near (1119, -722, -547)
+env_cubemap pointing at deleted brushside near (1119, -722, -547)
+env_cubemap pointing at deleted brushside near (1119, -722, -547)
+env_cubemap pointing at deleted brushside near (1119, -722, -547)
+env_cubemap pointing at deleted brushside near (1119, -722, -547)
+env_cubemap pointing at deleted brushside near (1119, -722, -547)
+env_cubemap pointing at deleted brushside near (1119, -722, -547)
+env_cubemap pointing at deleted brushside near (1429, -747, -302)
+env_cubemap pointing at deleted brushside near (1429, -747, -302)
+env_cubemap pointing at deleted brushside near (1429, -747, -302)
+env_cubemap pointing at deleted brushside near (1429, -747, -302)
+env_cubemap pointing at deleted brushside near (1429, -747, -302)
+env_cubemap pointing at deleted brushside near (1429, -747, -302)
+env_cubemap pointing at deleted brushside near (1432, -402, -547)
+env_cubemap pointing at deleted brushside near (1432, -402, -547)
+env_cubemap pointing at deleted brushside near (1432, -402, -547)
+env_cubemap pointing at deleted brushside near (1432, -402, -547)
+env_cubemap pointing at deleted brushside near (1432, -402, -547)
+env_cubemap pointing at deleted brushside near (1432, -402, -547)
+env_cubemap pointing at deleted brushside near (1432, -402, -547)
+env_cubemap pointing at deleted brushside near (1432, -402, -547)
+env_cubemap pointing at deleted brushside near (1432, -402, -547)
+env_cubemap pointing at deleted brushside near (1432, -402, -547)
+env_cubemap pointing at deleted brushside near (1432, -402, -547)
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 44 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (1)
+writing c:\users\olive\documents\github\de_neuhausen\levels\l2.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_08*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_08*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (117) (325897 bytes)
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Source\cstrike\materials
+Loading c:\users\olive\documents\github\de_neuhausen\levels\l2.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\common\counter-strike source\cstrike\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+env_cubemap pointing at deleted brushside near (1742, 692, -588)
+env_cubemap pointing at deleted brushside near (-1544, 881, 70)
+env_cubemap pointing at deleted brushside near (-1744, 389, 770)
+env_cubemap pointing at deleted brushside near (2267, -199, 410)
+env_cubemap pointing at deleted brushside near (2267, -199, 101)
+env_cubemap pointing at deleted brushside near (2263, -466, 84)
+env_cubemap pointing at deleted brushside near (1242, 829, -584)
+env_cubemap pointing at deleted brushside near (1800, 697, -588)
+env_cubemap pointing at deleted brushside near (-1643, -1315, -568)
+env_cubemap pointing at deleted brushside near (-1643, -1315, -568)
+env_cubemap pointing at deleted brushside near (-1643, -1315, -568)
+env_cubemap pointing at deleted brushside near (-1643, -1315, -568)
+env_cubemap pointing at deleted brushside near (-1643, -1315, -568)
+env_cubemap pointing at deleted brushside near (161, -887, -71)
+env_cubemap pointing at deleted brushside near (161, -887, -71)
+env_cubemap pointing at deleted brushside near (161, -887, -71)
+env_cubemap pointing at deleted brushside near (2269, -826, 53)
+env_cubemap pointing at deleted brushside near (2263, -466, 393)
+env_cubemap pointing at deleted brushside near (2255, 644, 50)
+env_cubemap pointing at deleted brushside near (1429, -724, -429)
+env_cubemap pointing at deleted brushside near (1429, -724, -429)
+env_cubemap pointing at deleted brushside near (1429, -724, -429)
+env_cubemap pointing at deleted brushside near (1429, -724, -429)
+env_cubemap pointing at deleted brushside near (1429, -724, -429)
+env_cubemap pointing at deleted brushside near (1429, -724, -429)
+env_cubemap pointing at deleted brushside near (1429, -724, -429)
+env_cubemap pointing at deleted brushside near (1763, -741, -547)
+env_cubemap pointing at deleted brushside near (1763, -741, -547)
+env_cubemap pointing at deleted brushside near (1763, -741, -547)
+env_cubemap pointing at deleted brushside near (1763, -741, -547)
+env_cubemap pointing at deleted brushside near (1763, -741, -547)
+env_cubemap pointing at deleted brushside near (1763, -741, -547)
+env_cubemap pointing at deleted brushside near (1763, -741, -547)
+env_cubemap pointing at deleted brushside near (1763, -741, -547)
+env_cubemap pointing at deleted brushside near (1763, -741, -547)
+env_cubemap pointing at deleted brushside near (1435, -1066, -547)
+env_cubemap pointing at deleted brushside near (1435, -1066, -547)
+env_cubemap pointing at deleted brushside near (1435, -1066, -547)
+env_cubemap pointing at deleted brushside near (1435, -1066, -547)
+env_cubemap pointing at deleted brushside near (1435, -1066, -547)
+env_cubemap pointing at deleted brushside near (1435, -1066, -547)
+env_cubemap pointing at deleted brushside near (1435, -1066, -547)
+env_cubemap pointing at deleted brushside near (1435, -1066, -547)
+env_cubemap pointing at deleted brushside near (1435, -1066, -547)
+env_cubemap pointing at deleted brushside near (1435, -1066, -547)
+env_cubemap pointing at deleted brushside near (1435, -1066, -547)
+env_cubemap pointing at deleted brushside near (1435, -1066, -547)
+env_cubemap pointing at deleted brushside near (1435, -1066, -547)
+env_cubemap pointing at deleted brushside near (1435, -1066, -547)
+env_cubemap pointing at deleted brushside near (1119, -722, -547)
+env_cubemap pointing at deleted brushside near (1119, -722, -547)
+env_cubemap pointing at deleted brushside near (1119, -722, -547)
+env_cubemap pointing at deleted brushside near (1119, -722, -547)
+env_cubemap pointing at deleted brushside near (1119, -722, -547)
+env_cubemap pointing at deleted brushside near (1119, -722, -547)
+env_cubemap pointing at deleted brushside near (1119, -722, -547)
+env_cubemap pointing at deleted brushside near (1119, -722, -547)
+env_cubemap pointing at deleted brushside near (1119, -722, -547)
+env_cubemap pointing at deleted brushside near (1429, -747, -302)
+env_cubemap pointing at deleted brushside near (1429, -747, -302)
+env_cubemap pointing at deleted brushside near (1429, -747, -302)
+env_cubemap pointing at deleted brushside near (1429, -747, -302)
+env_cubemap pointing at deleted brushside near (1429, -747, -302)
+env_cubemap pointing at deleted brushside near (1429, -747, -302)
+env_cubemap pointing at deleted brushside near (1432, -402, -547)
+env_cubemap pointing at deleted brushside near (1432, -402, -547)
+env_cubemap pointing at deleted brushside near (1432, -402, -547)
+env_cubemap pointing at deleted brushside near (1432, -402, -547)
+env_cubemap pointing at deleted brushside near (1432, -402, -547)
+env_cubemap pointing at deleted brushside near (1432, -402, -547)
+env_cubemap pointing at deleted brushside near (1432, -402, -547)
+env_cubemap pointing at deleted brushside near (1432, -402, -547)
+env_cubemap pointing at deleted brushside near (1432, -402, -547)
+env_cubemap pointing at deleted brushside near (1432, -402, -547)
+env_cubemap pointing at deleted brushside near (1432, -402, -547)
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 44 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing c:\users\olive\documents\github\de_neuhausen\levels\l2.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_08*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_08*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (117) (325897 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 1580 texinfos to 842
+Reduced 180 texdatas to 145 (5115 bytes to 4119)
+Writing c:\users\olive\documents\github\de_neuhausen\levels\l2.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\olive\documents\github\de_neuhausen\levels\l2.bsp', but we don't own that location. Allowing.
+Wrote ZIP buffer, estimated size 2834935, actual size 2809395
+3 minutes, 54 seconds elapsed
+
+
+
+12 threads
+reading c:\users\olive\documents\github\de_neuhausen\levels\l2.bsp
+reading c:\users\olive\documents\github\de_neuhausen\levels\l2.prt
+1837 portalclusters
+7212 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Source\cstrike\materials
+Loading c:\users\olive\documents\github\de_neuhausen\levels\l2.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\common\counter-strike source\cstrike\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+env_cubemap pointing at deleted brushside near (-1544, 881, 70)
+env_cubemap pointing at deleted brushside near (-1744, 389, 770)
+env_cubemap pointing at deleted brushside near (2267, -199, 410)
+env_cubemap pointing at deleted brushside near (2267, -199, 101)
+env_cubemap pointing at deleted brushside near (2263, -466, 84)
+env_cubemap pointing at deleted brushside near (2269, -826, 53)
+env_cubemap pointing at deleted brushside near (2263, -466, 393)
+env_cubemap pointing at deleted brushside near (2255, 644, 50)
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 44 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (1)
+writing c:\users\olive\documents\github\de_neuhausen\levels\l2.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_08*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_08*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Source\cstrike\materials
+Loading c:\users\olive\documents\github\de_neuhausen\levels\l2.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\common\counter-strike source\cstrike\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 44 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing c:\users\olive\documents\github\de_neuhausen\levels\l2.prt...Building visibility clusters...
+done (1)
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Source\cstrike\materials
+Loading c:\users\olive\documents\github\de_neuhausen\levels\l2.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\common\counter-strike source\cstrike\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 44 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing c:\users\olive\documents\github\de_neuhausen\levels\l2.prt...Building visibility clusters...
+done (1)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_08*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_08*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (115) (325897 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 1580 texinfos to 845
+Reduced 180 texdatas to 145 (5115 bytes to 4119)
+Writing c:\users\olive\documents\github\de_neuhausen\levels\l2.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\olive\documents\github\de_neuhausen\levels\l2.bsp', but we don't own that location. Allowing.
+Wrote ZIP buffer, estimated size 2834935, actual size 2809395
+3 minutes, 51 seconds elapsed
+
+
+
+12 threads
+reading c:\users\olive\documents\github\de_neuhausen\levels\l2.bsp
+reading c:\users\olive\documents\github\de_neuhausen\levels\l2.prt
+1837 portalclusters
+7212 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 140460 visible clusters (5.15%)
+Total clusters visible: 2727782
+Average clusters visible: 1484
+Building PAS...
+Average clusters audible: 1837
+visdatasize:818051  compressed from 852368
+writing c:\users\olive\documents\github\de_neuhausen\levels\l2.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\olive\documents\github\de_neuhausen\levels\l2.bsp', but we don't own that location. Allowing.
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[2 texlights parsed from 'lights.rad']
+
+Loading c:\users\olive\documents\github\de_neuhausen\levels\l2.bsp
+8113 faces
+4 degenerate faces
+2517075 square feet [362458848.00 square inches]
+9 Displacements
+46 Square Feet [6767.41 Square Inches]
+8109 patches before subdivision
+zero area child patch
+zero area child patch
+zero area child patch
+zero area child patch
+270131 patches after subdivision
+355 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 112760169, max 2179
+transfer lists: 860.3 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(728803, 770444, 955742)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(322789, 363179, 411239)
+Build Patch/Sample Hash Table(s).....Done<0.0686 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Computing static prop lighting : 00...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   7/1024          336/49152    ( 0.7%) 
+brushes                539/8192         6468/98304    ( 6.6%) 
+brushsides           10047/65536       80376/524288   (15.3%) 
+planes               17496/65536      349920/1310720  (26.7%) 
+vertexes             11691/65536      140292/786432   (17.8%) 
+nodes                 3773/65536      120736/2097152  ( 5.8%) 
+texinfos               845/12288       60840/884736   ( 6.9%) 
+texdata                145/2048         4640/65536    ( 7.1%) 
+dispinfos                9/0            1584/0        ( 0.0%) 
+disp_verts             225/0            4500/0        ( 0.0%) 
+disp_tris              288/0             576/0        ( 0.0%) 
+disp_lmsamples        1464/0            1464/0        ( 0.0%) 
+faces                 8113/65536      454328/3670016  (12.4%) 
+hdr faces             8113/65536      454328/3670016  (12.4%) 
+origfaces             3710/65536      207760/3670016  ( 5.7%) 
+leaves                3781/65536      120992/2097152  ( 5.8%) 
+leaffaces            11813/65536       23626/131072   (18.0%) 
+leafbrushes           1786/65536        3572/131072   ( 2.7%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges            54412/512000     217648/2048000  (10.6%) 
+edges                29197/256000     116788/1024000  (11.4%) 
+LDR worldlights          0/8192            0/720896   ( 0.0%) 
+HDR worldlights        355/8192        31240/720896   ( 4.3%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            528/32768        5280/327680   ( 1.6%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          8334/65536       16668/131072   (12.7%) 
+cubemapsamples          31/1024          496/16384    ( 3.0%) 
+overlays                 6/512          2112/180224   ( 1.2%) 
+LDR lightdata         [variable]           0/0        ( 0.0%) 
+HDR lightdata         [variable]    29427028/0        ( 0.0%) 
+visdata               [variable]      818051/16777216 ( 4.9%) 
+entdata               [variable]      141988/393216   (36.1%) 
+LDR ambient table     3781/65536       15124/262144   ( 5.8%) 
+HDR ambient table     3781/65536       15124/262144   ( 5.8%) 
+LDR leaf ambient      3781/65536      105868/1835008  ( 5.8%) 
+HDR leaf ambient     13980/65536      391440/1835008  (21.3%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/5930     ( 0.0%) 
+pakfile               [variable]    19816207/0        ( 0.0%) 
+physics               [variable]      325897/4194304  ( 7.8%) 
+physics terrain       [variable]        1025/1048576  ( 0.1%) 
+
+Level flags = 2
+
+Total triangle count: 22100
+Writing c:\users\olive\documents\github\de_neuhausen\levels\l2.bsp
+6 minutes, 36 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Source\cstrike\materials
+Loading c:\users\olive\documents\github\de_neuhausen\levels\l2.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\common\counter-strike source\cstrike\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 788 detail faces...done (0)
+Merging details...ClipWinding: MAX_POINTS_ON_WINDING
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Source\cstrike\materials
+Loading c:\users\olive\documents\github\de_neuhausen\levels\l2.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\common\counter-strike source\cstrike\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 788 detail faces...done (0)
+Merging details...ClipWinding: MAX_POINTS_ON_WINDING
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Source\cstrike\materials
+Loading c:\users\olive\documents\github\de_neuhausen\levels\l2.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\common\counter-strike source\cstrike\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 788 detail faces...done (0)
+Merging details...ClipWinding: MAX_POINTS_ON_WINDING
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Source\cstrike\materials
+Loading c:\users\olive\documents\github\de_neuhausen\levels\l2.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\common\counter-strike source\cstrike\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 542 detail faces...done (0)
+Merging details...ClipWinding: MAX_POINTS_ON_WINDING
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Source\cstrike\materials
+Loading c:\users\olive\documents\github\de_neuhausen\levels\l2.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\common\counter-strike source\cstrike\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 294 detail faces...done (0)
+Merging details...ClipWinding: MAX_POINTS_ON_WINDING
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Source\cstrike\materials
+Loading c:\users\olive\documents\github\de_neuhausen\levels\l2.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\common\counter-strike source\cstrike\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 44 detail faces...done (0)
+Merging details...ClipWinding: MAX_POINTS_ON_WINDING
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Source\cstrike\materials
+Loading c:\users\olive\documents\github\de_neuhausen\levels\l2.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\common\counter-strike source\cstrike\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 46 detail faces...done (0)
+Merging details...ClipWinding: MAX_POINTS_ON_WINDING
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Source\cstrike\materials
+Loading c:\users\olive\documents\github\de_neuhausen\levels\l2.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\common\counter-strike source\cstrike\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 44 detail faces...done (0)
+Merging details...ClipWinding: MAX_POINTS_ON_WINDING
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Source\cstrike\materials
+Loading c:\users\olive\documents\github\de_neuhausen\levels\l2.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\common\counter-strike source\cstrike\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 44 detail faces...done (0)
+Merging details...ClipWinding: MAX_POINTS_ON_WINDING
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Source\cstrike\materials
+Loading c:\users\olive\documents\github\de_neuhausen\levels\l2.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\common\counter-strike source\cstrike\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 26 detail faces...done (0)
+Merging details...ClipWinding: MAX_POINTS_ON_WINDING
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Source\cstrike\materials
+Loading c:\users\olive\documents\github\de_neuhausen\levels\l2.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\common\counter-strike source\cstrike\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...ClipWinding: MAX_POINTS_ON_WINDING
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Source\cstrike\materials
+Loading c:\users\olive\documents\github\de_neuhausen\levels\l2.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\common\counter-strike source\cstrike\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 44 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing c:\users\olive\documents\github\de_neuhausen\levels\l2.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_08*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_08*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (1) (278928 bytes)
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Source\cstrike\materials
+Loading c:\users\olive\documents\github\de_neuhausen\levels\l2.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\common\counter-strike source\cstrike\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...ClipWinding: MAX_POINTS_ON_WINDING
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Source\cstrike\materials
+Loading c:\users\olive\documents\github\de_neuhausen\levels\l2.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\common\counter-strike source\cstrike\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...ClipWinding: MAX_POINTS_ON_WINDING
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Source\cstrike\materials
+Loading c:\users\olive\documents\github\de_neuhausen\levels\l2.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\common\counter-strike source\cstrike\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 44 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing c:\users\olive\documents\github\de_neuhausen\levels\l2.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_08*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_08*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (1) (290552 bytes)
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Source\cstrike\materials
+Loading c:\users\olive\documents\github\de_neuhausen\levels\l2.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\common\counter-strike source\cstrike\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 294 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing c:\users\olive\documents\github\de_neuhausen\levels\l2.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_08*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_08*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (1) (290552 bytes)
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Source\cstrike\materials
+Loading c:\users\olive\documents\github\de_neuhausen\levels\l2.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\common\counter-strike source\cstrike\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 776 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing c:\users\olive\documents\github\de_neuhausen\levels\l2.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_08*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_08*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (290552 bytes)
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Source\cstrike\materials
+Loading c:\users\olive\documents\github\de_neuhausen\levels\l2.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\common\counter-strike source\cstrike\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 776 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing c:\users\olive\documents\github\de_neuhausen\levels\l2.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_08*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_08*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (290888 bytes)
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Source\cstrike\materials
+Loading c:\users\olive\documents\github\de_neuhausen\levels\l2.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\common\counter-strike source\cstrike\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 776 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing c:\users\olive\documents\github\de_neuhausen\levels\l2.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_08*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_08*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (290888 bytes)
