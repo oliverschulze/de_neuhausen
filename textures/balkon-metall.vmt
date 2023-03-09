@@ -4,4 +4,5 @@
   "$envmap" "env_cubemap"
   "$fresnelreflection" 0.8
   "$translucent" 0
+   "$envmaptint" "[ 0.1 0.1 0.1 ]"
 }
