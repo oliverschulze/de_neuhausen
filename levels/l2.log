@@ -55429,4 +55429,218 @@ Build Patch/Sample Hash Table(s).....Done<0.0715 sec>
 0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
 0 of 0 (0% of) surface lights went in leaf ambient cubes.
 0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
-Computing static prop lighting : 00...1...2...3...4...5...6...7...8...9..
+Computing static prop lighting : 00...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   7/1024          336/49152    ( 0.7%) 
+brushes                576/8192         6912/98304    ( 7.0%) 
+brushsides           10762/65536       86096/524288   (16.4%) 
+planes               15620/65536      312400/1310720  (23.8%) 
+vertexes             11204/65536      134448/786432   (17.1%) 
+nodes                 1462/65536       46784/2097152  ( 2.2%) 
+texinfos               937/12288       67464/884736   ( 7.6%) 
+texdata                145/2048         4640/65536    ( 7.1%) 
+dispinfos                9/0            1584/0        ( 0.0%) 
+disp_verts             225/0            4500/0        ( 0.0%) 
+disp_tris              288/0             576/0        ( 0.0%) 
+disp_lmsamples        1464/0            1464/0        ( 0.0%) 
+faces                 7231/65536      404936/3670016  (11.0%) 
+hdr faces             7231/65536      404936/3670016  (11.0%) 
+origfaces             3372/65536      188832/3670016  ( 5.1%) 
+leaves                1470/65536       47040/2097152  ( 2.2%) 
+leaffaces            10535/65536       21070/131072   (16.1%) 
+leafbrushes           1421/65536        2842/131072   ( 2.2%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges            50132/512000     200528/2048000  ( 9.8%) 
+edges                27796/256000     111184/1024000  (10.9%) 
+LDR worldlights          0/8192            0/720896   ( 0.0%) 
+HDR worldlights        355/8192        31240/720896   ( 4.3%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            648/32768        6480/327680   ( 2.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices         10605/65536       21210/131072   (16.2%) 
+cubemapsamples          32/1024          512/16384    ( 3.1%) 
+overlays                 3/512          1056/180224   ( 0.6%) 
+LDR lightdata         [variable]           0/0        ( 0.0%) 
+HDR lightdata         [variable]    28226332/0        ( 0.0%) 
+visdata               [variable]      193332/16777216 ( 1.2%) 
+entdata               [variable]      142003/393216   (36.1%) 
+LDR ambient table     1470/65536        5880/262144   ( 2.2%) 
+HDR ambient table     1470/65536        5880/262144   ( 2.2%) 
+LDR leaf ambient      1470/65536       41160/1835008  ( 2.2%) 
+HDR leaf ambient      9035/65536      252980/1835008  (13.8%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/5818     ( 0.0%) 
+pakfile               [variable]    19902884/0        ( 0.0%) 
+physics               [variable]      336664/4194304  ( 8.0%) 
+physics terrain       [variable]        1025/1048576  ( 0.1%) 
+
+Level flags = 2
+
+Total triangle count: 20471
+Writing c:\users\olive\documents\github\de_neuhausen\levels\l2.bsp
+6 minutes, 37 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Source\cstrike\materials
+Loading c:\users\olive\documents\github\de_neuhausen\levels\l2.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\common\counter-strike source\cstrike\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 1186 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing c:\users\olive\documents\github\de_neuhausen\levels\l2.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_08*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_08*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (1) (336664 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 1802 texinfos to 956
+Reduced 182 texdatas to 145 (5153 bytes to 4106)
+Writing c:\users\olive\documents\github\de_neuhausen\levels\l2.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\olive\documents\github\de_neuhausen\levels\l2.bsp', but we don't own that location. Allowing.
+Wrote ZIP buffer, estimated size 2921880, actual size 2896072
+58 seconds elapsed
+
+
+
+12 threads
+reading c:\users\olive\documents\github\de_neuhausen\levels\l2.bsp
+reading c:\users\olive\documents\github\de_neuhausen\levels\l2.prt
+ 870 portalclusters
+3067 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 15944 visible clusters (2.89%)
+Total clusters visible: 552632
+Average clusters visible: 635
+Building PAS...
+Average clusters audible: 869
+visdatasize:193332  compressed from 194880
+writing c:\users\olive\documents\github\de_neuhausen\levels\l2.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\olive\documents\github\de_neuhausen\levels\l2.bsp', but we don't own that location. Allowing.
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[2 texlights parsed from 'lights.rad']
+
+Loading c:\users\olive\documents\github\de_neuhausen\levels\l2.bsp
+7231 faces
+12 degenerate faces
+2570481 square feet [370149248.00 square inches]
+9 Displacements
+46 Square Feet [6767.41 Square Inches]
+356 direct lights
+0...1...2...3...4...5...6...7...8...9...10Build Patch/Sample Hash Table(s).....Done<0.0568 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   7/1024          336/49152    ( 0.7%) 
+brushes                576/8192         6912/98304    ( 7.0%) 
+brushsides           10762/65536       86096/524288   (16.4%) 
+planes               15620/65536      312400/1310720  (23.8%) 
+vertexes             11204/65536      134448/786432   (17.1%) 
+nodes                 1462/65536       46784/2097152  ( 2.2%) 
+texinfos               956/12288       68832/884736   ( 7.8%) 
+texdata                145/2048         4640/65536    ( 7.1%) 
+dispinfos                9/0            1584/0        ( 0.0%) 
+disp_verts             225/0            4500/0        ( 0.0%) 
+disp_tris              288/0             576/0        ( 0.0%) 
+disp_lmsamples        1464/0            1464/0        ( 0.0%) 
+faces                 7231/65536      404936/3670016  (11.0%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             3372/65536      188832/3670016  ( 5.1%) 
+leaves                1470/65536       47040/2097152  ( 2.2%) 
+leaffaces            10535/65536       21070/131072   (16.1%) 
+leafbrushes           1421/65536        2842/131072   ( 2.2%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges            50132/512000     200528/2048000  ( 9.8%) 
+edges                27796/256000     111184/1024000  (10.9%) 
+LDR worldlights        356/8192        31328/720896   ( 4.3%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            648/32768        6480/327680   ( 2.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices         10605/65536       21210/131072   (16.2%) 
+cubemapsamples          32/1024          512/16384    ( 3.1%) 
+overlays                 3/512          1056/180224   ( 0.6%) 
+LDR lightdata         [variable]    28227068/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]      193332/16777216 ( 1.2%) 
+entdata               [variable]      142332/393216   (36.2%) 
+LDR ambient table     1470/65536        5880/262144   ( 2.2%) 
+HDR ambient table     1470/65536        5880/262144   ( 2.2%) 
+LDR leaf ambient      9075/65536      254100/1835008  (13.8%) 
+HDR leaf ambient      1470/65536       41160/1835008  ( 2.2%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/5818     ( 0.0%) 
+pakfile               [variable]     2896072/0        ( 0.0%) 
+physics               [variable]      336664/4194304  ( 8.0%) 
+physics terrain       [variable]        1025/1048576  ( 0.1%) 
+
+Level flags = 0
+
+Total triangle count: 20471
+Writing c:\users\olive\documents\github\de_neuhausen\levels\l2.bsp
+44 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Source\cstrike\materials
+Loading c:\users\olive\documents\github\de_neuhausen\levels\l2.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\common\counter-strike source\cstrike\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 1246 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing c:\users\olive\documents\github\de_neuhausen\levels\l2.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_08*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_08*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (1) (337352 bytes)
