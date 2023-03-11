@@ -2,8 +2,8 @@
   "$RefractTexture" _rt_WaterRefraction
   "$ReflectTexture" _rt_WaterReflection
   "$basetexture" "spiegel"
-  "$normalmap" "fenster_glass_80_normal"
-  "$refractamount" 0
-  "$reflectamount" 1.0
-  "$fresnelpower" 1
+  "$normalmap" "spiegel-normal"
+  "$refractamount" 0.5
+  "$reflectamount" 1
+  "$fresnelpower" 0
 }
