@@ -57,6 +57,10 @@ copy models\pc\*.vtf "C:\Program Files (x86)\Steam\steamapps\common\Counter-Stri
 copy models\mellioli\*.vmt "C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Source\cstrike\materials\models\de_neuhausen"
 copy models\mellioli\*.vtf "C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Source\cstrike\materials\models\de_neuhausen"
 
+copy models\klinke\*.vmt "C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Source\cstrike\materials\models\de_neuhausen"
+copy models\klinke\*.vtf "C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Source\cstrike\materials\models\de_neuhausen"
+
+
 copy prefabs\*.vmf "C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Source\bin\Prefabs"
 
 copy videos\*.vmt "C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Source\cstrike\custom\de_neuhausen\materials"
