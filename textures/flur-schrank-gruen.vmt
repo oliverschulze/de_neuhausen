@@ -1,0 +1,4 @@
+"LightmappedGeneric" { 
+  "$basetexture" "flur-schrank-gruen-seamless"
+   $color2 "[ 4 4 4 ]"
+}
