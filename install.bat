@@ -66,6 +66,9 @@ copy models\balkon\*.vtf "C:\Program Files (x86)\Steam\steamapps\common\Counter-
 copy models\schrank\*.vmt "C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Source\cstrike\materials\models\de_neuhausen"
 copy models\schrank\*.vtf "C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Source\cstrike\materials\models\de_neuhausen"
 
+copy models\lego-schrank\*.vmt "C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Source\cstrike\materials\models\de_neuhausen"
+copy models\lego-schrank\*.vtf "C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Source\cstrike\materials\models\de_neuhausen"
+
 copy prefabs\*.vmf "C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Source\bin\Prefabs"
 
 copy videos\*.vmt "C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Source\cstrike\custom\de_neuhausen\materials"
