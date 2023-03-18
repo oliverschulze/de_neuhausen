@@ -1,3 +1,4 @@
 "VertexLitGeneric" { 
   "$basetexture" "Models/de_neuhausen/schrank3"
+  $color2 "[ 2.0 2.0 2.0 ]"
 }
