@@ -1,0 +1,7 @@
+"VertexLitGeneric" { 
+  "$basetexture" "Models/de_neuhausen/weiss"
+  "$normalmap" "Models/de_neuhausen/fenster_glass_80_2_normal"
+  "$envmap" "env_cubemap"
+  "$fresnelreflection" 0.2
+  "$envmaptint" "[ 0.02 0.02 0.02 ]"
+}
