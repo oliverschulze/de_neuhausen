@@ -1,0 +1,4 @@
+"VertexLitGeneric" { 
+  "$basetexture" "Models/de_neuhausen/ps5-controllers" 
+  $color2 "[ 2.0 2.0 2.0 ]" 
+} 

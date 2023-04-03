@@ -63028,3 +63028,142 @@ Level flags = 2
 Total triangle count: 35053
 Writing c:\users\olive\documents\github\de_neuhausen\levels\l2.bsp
 10 minutes, 10 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Source\cstrike\materials
+Loading c:\users\olive\documents\github\de_neuhausen\levels\l2.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+***need to set $abovewater for material dev/dev_water2_cheap
+***need to set $abovewater for material dev/dev_water2_cheap
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\common\counter-strike source\cstrike\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 2272 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (1)
+writing c:\users\olive\documents\github\de_neuhausen\levels\l2.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_08*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_08*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (450498 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 3024 texinfos to 1818
+Reduced 257 texdatas to 215 (7411 bytes to 6198)
+Writing c:\users\olive\documents\github\de_neuhausen\levels\l2.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\olive\documents\github\de_neuhausen\levels\l2.bsp', but we don't own that location. Allowing.
+Wrote ZIP buffer, estimated size 4248958, actual size 4211894
+5 minutes, 43 seconds elapsed
+
+
+
+12 threads
+reading c:\users\olive\documents\github\de_neuhausen\levels\l2.bsp
+reading c:\users\olive\documents\github\de_neuhausen\levels\l2.prt
+1052 portalclusters
+3743 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 33997 visible clusters (4.25%)
+Total clusters visible: 800806
+Average clusters visible: 761
+Building PAS...
+Average clusters audible: 1043
+visdatasize:279126  compressed from 286144
+writing c:\users\olive\documents\github\de_neuhausen\levels\l2.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\olive\documents\github\de_neuhausen\levels\l2.bsp', but we don't own that location. Allowing.
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[2 texlights parsed from 'lights.rad']
+
+Loading c:\users\olive\documents\github\de_neuhausen\levels\l2.bsp
+11973 faces
+2668389 square feet [384248128.00 square inches]
+9 Displacements
+46 Square Feet [6767.41 Square Inches]
+11973 patches before subdivision
+zero area child patch
+zero area child patch
+318491 patches after subdivision
+415 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 153040580, max 3045
+transfer lists: 1167.6 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(555369, 696567, 932558)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(264683, 324547, 385711)
+Build Patch/Sample Hash Table(s).....Done<0.0811 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Computing static prop lighting : 00...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   9/1024          432/49152    ( 0.9%) 
+brushes                928/8192        11136/98304    (11.3%) 
+brushsides           13063/65536      104504/524288   (19.9%) 
+planes               16608/65536      332160/1310720  (25.3%) 
+vertexes             20151/65536      241812/786432   (30.7%) 
+nodes                 1820/65536       58240/2097152  ( 2.8%) 
+texinfos              1818/12288      130896/884736   (14.8%) 
+texdata                215/2048         6880/65536    (10.5%) 
+dispinfos                9/0            1584/0        ( 0.0%) 
+disp_verts             225/0            4500/0        ( 0.0%) 
+disp_tris              288/0             576/0        ( 0.0%) 
+disp_lmsamples        1464/0            1464/0        ( 0.0%) 
+faces                11973/65536      670488/3670016  (18.3%) 
+hdr faces            11973/65536      670488/3670016  (18.3%) 
+origfaces             4753/65536      266168/3670016  ( 7.3%) 
+leaves                1830/65536       58560/2097152  ( 2.8%) 
+leaffaces            16599/65536       33198/131072   (25.3%) 
+leafbrushes           2178/65536        4356/131072   ( 3.3%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges            80548/512000     322192/2048000  (15.7%) 
+edges                45318/256000     181272/1024000  (17.7%) 
+LDR worldlights          0/8192            0/720896   ( 0.0%) 
+HDR worldlights        415/8192        36520/720896   ( 5.1%) 
+leafwaterdata            2/32768          24/393216   ( 0.0%) 
+waterstrips           2007/32768       20070/327680   ( 6.1%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices         34335/65536       68670/131072   (52.4%) 
+cubemapsamples          47/1024          752/16384    ( 4.6%) 
+overlays                 5/512          1760/180224   ( 1.0%) 
+LDR lightdata         [variable]           0/0        ( 0.0%) 
+HDR lightdata         [variable]    41169860/0        ( 0.0%) 
+visdata               [variable]      279126/16777216 ( 1.7%) 
+entdata               [variable]      163180/393216   (41.5%) 
+LDR ambient table     1830/65536        7320/262144   ( 2.8%) 
+HDR ambient table     1830/65536        7320/262144   ( 2.8%) 
+LDR leaf ambient      1830/65536       51240/1835008  ( 2.8%) 
+HDR leaf ambient     10887/65536      304836/1835008  (16.6%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/14456    ( 0.0%) 
+pakfile               [variable]    22986538/0        ( 0.0%) 
+physics               [variable]      450498/4194304  (10.7%) 
+physics terrain       [variable]        1025/1048576  ( 0.1%) 
+
+Level flags = 2
+
+Total triangle count: 36031
+Writing c:\users\olive\documents\github\de_neuhausen\levels\l2.bsp
+11 minutes, 36 seconds elapsed
