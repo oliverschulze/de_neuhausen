@@ -3941,3 +3941,167 @@ Level flags = 3
 Total triangle count: 2844
 Writing c:\users\olive\documents\github\de_neuhausen\levels\aliciya1.bsp
 6 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Source\cstrike\materials
+Loading c:\users\olive\documents\github\de_neuhausen\levels\aliciya1.vmf
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\common\counter-strike source\cstrike\gameinfo.txt
+   35 brushes
+    0 clipbrushes
+ 1750 total sides
+  132 boxbevels
+  984 edgebevels
+   19 entities
+ 3846 planes
+    0 areaportals
+size: -1288, -768,    0 to   360,   64,  768
+fixing up env_cubemap materials on brush sides...
+############### model 0 ###############
+--------------------------------------------
+0############### block -2,-1 ###############
+---- ChopBrushes ----
+original brushes: 1
+output brushes: 1
+--- BrushBSP ---
+    1 brushes
+    4 visible faces
+    0 nonvisible faces
+    4 visible nodes
+    0 nonvis nodes
+    5 leafs
+...1..############### block -1,-1 ###############
+---- ChopBrushes ----
+original brushes: 15
+output brushes: 15
+--- BrushBSP ---
+   15 brushes
+  191 visible faces
+    0 nonvisible faces
+  261 visible nodes
+    0 nonvis nodes
+  262 leafs
+.2...3.############### block  0,-1 ###############
+..4...5############### block -2, 0 ###############
+...6..############### block -1, 0 ###############
+---- ChopBrushes ----
+original brushes: 1
+output brushes: 1
+--- BrushBSP ---
+    1 brushes
+    4 visible faces
+    0 nonvisible faces
+    4 visible nodes
+    0 nonvis nodes
+    5 leafs
+.7...8.############### block  0, 0 ###############
+--------------------------------------------
+--- FloodEntities ---
+--- FillOutside ---
+   51 solid leafs
+   31 leafs filled
+  207 inside leafs
+--- MarkVisibleSides ---
+--------------------------------------------
+0############### block -2,-1 ###############
+---- ChopBrushes ----
+original brushes: 1
+output brushes: 1
+--- BrushBSP ---
+    1 brushes
+    0 visible faces
+    4 nonvisible faces
+    0 visible nodes
+    4 nonvis nodes
+    5 leafs
+...1..############### block -1,-1 ###############
+---- ChopBrushes ----
+original brushes: 15
+output brushes: 15
+--- BrushBSP ---
+   15 brushes
+  168 visible faces
+   23 nonvisible faces
+  254 visible nodes
+   12 nonvis nodes
+  267 leafs
+.2...3.############### block  0,-1 ###############
+..4...5############### block -2, 0 ###############
+...6..############### block -1, 0 ###############
+---- ChopBrushes ----
+original brushes: 1
+output brushes: 1
+--- BrushBSP ---
+    1 brushes
+    0 visible faces
+    4 nonvisible faces
+    0 visible nodes
+    4 nonvis nodes
+    5 leafs
+.7...8.############### block  0, 0 ###############
+--------------------------------------------
+--- FloodEntities ---
+--- FillOutside ---
+   55 solid leafs
+   32 leafs filled
+  207 inside leafs
+--- MarkVisibleSides ---
+--- FloodAreas ---
+Processing areas...    1 areas
+done (0)
+Building Faces...--- MakeFaces ---
+  439 makefaces
+   79 merged
+   16 subdivided
+done (0)
+Chop Details...---- ChopBrushes ----
+original brushes: 8
+output brushes: 8
+done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+---- snap verts ----
+---- tjunc ----
+899 unique from 2809
+   19 edges degenerated
+    0 faces degenerated
+  224 edges added by tjunctions
+    0 faces added by tjunctions
+   18 bad start verts
+PruneNodes...
+--- PruneNodes ---
+   43 pruned nodes
+WriteBSP...
+--- WriteBSP ---
+    2 numareas
+    1 numareaportals
+  234 nodes with faces
+   16 nodes without faces
+  626 faces
+  417 original faces
+done (0)
+--- WritePortalFile ---
+writing c:\users\olive\documents\github\de_neuhausen\levels\aliciya1.prt...Building visibility clusters...
+  207 visclusters
+  818 visportals
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (54223 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 67 texinfos to 50
+Reduced 7 texdatas to 7 (125 bytes to 125)
+Writing c:\users\olive\documents\github\de_neuhausen\levels\aliciya1.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\olive\documents\github\de_neuhausen\levels\aliciya1.bsp', but we don't own that location. Allowing.
+Wrote ZIP buffer, estimated size 105877, actual size 105663
+0 seconds elapsed
