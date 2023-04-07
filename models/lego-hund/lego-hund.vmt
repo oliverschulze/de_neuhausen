@@ -1,0 +1,4 @@
+"VertexLitGeneric" { 
+  "$basetexture" "Models/de_neuhausen/lego-hund" 
+  $color2 "[ 2.0 2.0 2.0 ]" 
+} 
