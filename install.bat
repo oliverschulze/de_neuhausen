@@ -1,4 +1,6 @@
 @echo off
+copy light\*.rad "C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Source\cstrike"
+
 md "C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Source\cstrike\custom\de_neuhausen\materials"
 copy textures\*.vmt "C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Source\cstrike\custom\de_neuhausen\materials"
 copy textures\*.vtf "C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Source\cstrike\custom\de_neuhausen\materials"
