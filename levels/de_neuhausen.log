@@ -2314,3 +2314,198 @@ Level flags = 2
 Total triangle count: 42179
 Writing c:\users\olive\documents\github\de_neuhausen\levels\de_neuhausen.bsp
 4 minutes, 0 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Source\cstrike\materials
+Loading c:\users\olive\documents\github\de_neuhausen\levels\de_neuhausen.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\common\counter-strike source\cstrike\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 2280 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (1)
+writing c:\users\olive\documents\github\de_neuhausen\levels\de_neuhausen.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_08*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_08*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (1) (738866 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 4570 texinfos to 2615
+Reduced 253 texdatas to 219 (9023 bytes to 7796)
+Writing c:\users\olive\documents\github\de_neuhausen\levels\de_neuhausen.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\olive\documents\github\de_neuhausen\levels\de_neuhausen.bsp', but we don't own that location. Allowing.
+Wrote ZIP buffer, estimated size 4252774, actual size 4216782
+16 minutes, 51 seconds elapsed
+
+
+
+12 threads
+reading c:\users\olive\documents\github\de_neuhausen\levels\de_neuhausen.bsp
+reading c:\users\olive\documents\github\de_neuhausen\levels\de_neuhausen.prt
+2150 portalclusters
+6856 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 223002 visible clusters (8.80%)
+Total clusters visible: 2534211
+Average clusters visible: 1178
+Building PAS...
+Average clusters audible: 2135
+visdatasize:1087087  compressed from 1169600
+writing c:\users\olive\documents\github\de_neuhausen\levels\de_neuhausen.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\olive\documents\github\de_neuhausen\levels\de_neuhausen.bsp', but we don't own that location. Allowing.
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[2 texlights parsed from 'lights.rad']
+
+[Reading texlights from 'custom_lights.rad']
+[4 texlights parsed from 'custom_lights.rad']
+
+Loading c:\users\olive\documents\github\de_neuhausen\levels\de_neuhausen.bsp
+15194 faces
+3310265 square feet [476678208.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+15194 patches before subdivision
+zero area child patch
+zero area child patch
+330122 patches after subdivision
+3235 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 153273617, max 2988
+transfer lists: 1169.4 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(609217, 771048, 1049037)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(293669, 365992, 445337)
+Build Patch/Sample Hash Table(s).....Done<0.0793 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+2764 of 2764 (100% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Computing static prop lighting : 00...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   9/1024          432/49152    ( 0.9%) 
+brushes               1744/8192        20928/98304    (21.3%) 
+brushsides           17968/65536      143744/524288   (27.4%) 
+planes               17906/65536      358120/1310720  (27.3%) 
+vertexes             26392/65536      316704/786432   (40.3%) 
+nodes                 3796/65536      121472/2097152  ( 5.8%) 
+texinfos              2615/12288      188280/884736   (21.3%) 
+texdata                219/2048         7008/65536    (10.7%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                15194/65536      850864/3670016  (23.2%) 
+hdr faces            15194/65536      850864/3670016  (23.2%) 
+origfaces             6611/65536      370216/3670016  (10.1%) 
+leaves                3806/65536      121792/2097152  ( 5.8%) 
+leaffaces            21436/65536       42872/131072   (32.7%) 
+leafbrushes           3871/65536        7742/131072   ( 5.9%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges           104442/512000     417768/2048000  (20.4%) 
+edges                59997/256000     239988/1024000  (23.4%) 
+LDR worldlights          0/8192            0/720896   ( 0.0%) 
+HDR worldlights       3235/8192       284680/720896   (39.5%) 
+leafwaterdata            1/32768          12/393216   ( 0.0%) 
+waterstrips           2432/32768       24320/327680   ( 7.4%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices         42279/65536       84558/131072   (64.5%) 
+cubemapsamples          47/1024          752/16384    ( 4.6%) 
+overlays                 5/512          1760/180224   ( 1.0%) 
+LDR lightdata         [variable]           0/0        ( 0.0%) 
+HDR lightdata         [variable]    40802144/0        ( 0.0%) 
+visdata               [variable]     1087087/16777216 ( 6.5%) 
+entdata               [variable]      183586/393216   (46.7%) 
+LDR ambient table     3806/65536       15224/262144   ( 5.8%) 
+HDR ambient table     3806/65536       15224/262144   ( 5.8%) 
+LDR leaf ambient      3806/65536      106568/1835008  ( 5.8%) 
+HDR leaf ambient     16739/65536      468692/1835008  (25.5%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/18020    ( 0.0%) 
+pakfile               [variable]    24230686/0        ( 0.0%) 
+physics               [variable]      738866/4194304  (17.6%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 2
+
+Total triangle count: 46051
+Writing c:\users\olive\documents\github\de_neuhausen\levels\de_neuhausen.bsp
+33 minutes, 2 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Source\cstrike\materials
+Loading c:\users\olive\documents\github\de_neuhausen\levels\de_neuhausen.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\common\counter-strike source\cstrike\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 2318 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (1)
+writing c:\users\olive\documents\github\de_neuhausen\levels\de_neuhausen.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_08*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_08*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (1) (740533 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 4579 texinfos to 2621
+Reduced 255 texdatas to 220 (9076 bytes to 7812)
+Writing c:\users\olive\documents\github\de_neuhausen\levels\de_neuhausen.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\olive\documents\github\de_neuhausen\levels\de_neuhausen.bsp', but we don't own that location. Allowing.
+Wrote ZIP buffer, estimated size 4253202, actual size 4217076
+3 seconds elapsed
+
+
+
+12 threads
+reading c:\users\olive\documents\github\de_neuhausen\levels\de_neuhausen.bsp
+reading c:\users\olive\documents\github\de_neuhausen\levels\de_neuhausen.prt
+2150 portalclusters
+6856 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 223002 visible clusters (8.80%)
+Total clusters visible: 2534211
+Average clusters visible: 1178
+Building PAS...
+Average clusters audible: 2135
+visdatasize:1087087  compressed from 1169600
+writing c:\users\olive\documents\github\de_neuhausen\levels\de_neuhausen.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\olive\documents\github\de_neuhausen\levels\de_neuhausen.bsp', but we don't own that location. Allowing.
+0 seconds elapsed
