@@ -2,3 +2,4 @@ licht_orange_emit 255 186 0 10
 licht_blau_emit 120 133 255 10
 licht_tuerkis_emit 0 216 255 10
 licht_dunkel_blau_emit 0 102 255 10
+licht_weiss_emit 255 255 255 10
