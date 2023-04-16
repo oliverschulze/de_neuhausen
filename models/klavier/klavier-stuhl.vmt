@@ -1,0 +1,4 @@
+"VertexLitGeneric" { 
+  "$basetexture" "Models/de_neuhausen/klavier-stuhl" 
+  $color2 "[ 5 5 5 ]" 
+} 
