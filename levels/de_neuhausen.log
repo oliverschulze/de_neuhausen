@@ -71241,3 +71241,183 @@ visdatasize:419670  compressed from 441168
 writing c:\users\olive\documents\github\de_neuhausen\levels\de_neuhausen.bsp
 MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\olive\documents\github\de_neuhausen\levels\de_neuhausen.bsp', but we don't own that location. Allowing.
 0 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Source\cstrike\materials
+Loading c:\users\olive\documents\github\de_neuhausen\levels\de_neuhausen.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\common\counter-strike source\cstrike\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 2398 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (1)
+writing c:\users\olive\documents\github\de_neuhausen\levels\de_neuhausen.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_08*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_08*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (1) (796797 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 4590 texinfos to 2693
+Reduced 319 texdatas to 261 (11450 bytes to 9165)
+Writing c:\users\olive\documents\github\de_neuhausen\levels\de_neuhausen.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\olive\documents\github\de_neuhausen\levels\de_neuhausen.bsp', but we don't own that location. Allowing.
+Wrote ZIP buffer, estimated size 6883659, actual size 6833195
+16 minutes, 37 seconds elapsed
+
+
+
+12 threads
+reading c:\users\olive\documents\github\de_neuhausen\levels\de_neuhausen.bsp
+reading c:\users\olive\documents\github\de_neuhausen\levels\de_neuhausen.prt
+1313 portalclusters
+3751 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 2896 visible clusters (0.94%)
+Total clusters visible: 308089
+Average clusters visible: 234
+Building PAS...
+Average clusters audible: 854
+visdatasize:351164  compressed from 441168
+writing c:\users\olive\documents\github\de_neuhausen\levels\de_neuhausen.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\olive\documents\github\de_neuhausen\levels\de_neuhausen.bsp', but we don't own that location. Allowing.
+23 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[2 texlights parsed from 'lights.rad']
+
+Warning: Couldn't open texlight file custom_lightsx.rad.
+Loading c:\users\olive\documents\github\de_neuhausen\levels\de_neuhausen.bsp
+14585 faces
+3380296 square feet [486762624.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+14585 patches before subdivision
+zero area child patch
+326855 patches after subdivision
+499 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 150487173, max 2930
+transfer lists: 1148.1 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(596570, 751315, 1007987)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(281902, 351976, 422677)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(133148, 177829, 197911)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(69031, 95648, 97757)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(35997, 53247, 50937)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(19718, 31173, 27970)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(11167, 18849, 16134)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(6611, 11921, 9742)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(4107, 7756, 6162)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(2649, 5232, 4025)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(1797, 3610, 2741)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(1248, 2556, 1898)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(905, 1842, 1364)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #14 added RGB(662, 1350, 983)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #15 added RGB(502, 1003, 733)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #16 added RGB(379, 753, 544)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #17 added RGB(295, 572, 416)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #18 added RGB(227, 436, 315)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #19 added RGB(180, 337, 246)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #20 added RGB(140, 260, 188)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #21 added RGB(112, 203, 149)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #22 added RGB(88, 158, 115)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #23 added RGB(71, 125, 92)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #24 added RGB(56, 97, 72)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #25 added RGB(45, 77, 58)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #26 added RGB(36, 61, 46)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #27 added RGB(29, 49, 37)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #28 added RGB(23, 39, 29)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #29 added RGB(19, 31, 24)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #30 added RGB(15, 25, 19)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #31 added RGB(12, 20, 16)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #32 added RGB(10, 16, 12)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #33 added RGB(8, 13, 10)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #34 added RGB(6, 10, 8)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #35 added RGB(5, 8, 7)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #36 added RGB(4, 7, 5)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #37 added RGB(3, 5, 4)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #38 added RGB(3, 4, 4)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #39 added RGB(2, 4, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #40 added RGB(2, 3, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #41 added RGB(1, 2, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #42 added RGB(1, 2, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #43 added RGB(1, 2, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #44 added RGB(1, 1, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #45 added RGB(1, 1, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #46 added RGB(0, 1, 1)
+Build Patch/Sample Hash Table(s).....Done<0.0874 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Computing static prop lighting : 00...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  11/1024          528/49152    ( 1.1%) 
+brushes               1916/8192        22992/98304    (23.4%) 
+brushsides           19428/65536      155424/524288   (29.6%) 
+planes               18948/65536      378960/1310720  (28.9%) 
+vertexes             26043/65536      312516/786432   (39.7%) 
+nodes                 2532/65536       81024/2097152  ( 3.9%) 
+texinfos              2693/12288      193896/884736   (21.9%) 
+texdata                261/2048         8352/65536    (12.7%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                14585/65536      816760/3670016  (22.3%) 
+hdr faces            14585/65536      816760/3670016  (22.3%) 
+origfaces             7031/65536      393736/3670016  (10.7%) 
+leaves                2544/65536       81408/2097152  ( 3.9%) 
+leaffaces            18095/65536       36190/131072   (27.6%) 
+leafbrushes           3646/65536        7292/131072   ( 5.6%) 
+areas                    3/256            24/2048     ( 1.2%) 
+surfedges           103213/512000     412852/2048000  (20.2%) 
+edges                60460/256000     241840/1024000  (23.6%) 
+LDR worldlights          0/8192            0/720896   ( 0.0%) 
+HDR worldlights        499/8192        43912/720896   ( 6.1%) 
+leafwaterdata            1/32768          12/393216   ( 0.0%) 
+waterstrips           2421/32768       24210/327680   ( 7.4%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices         42732/65536       85464/131072   (65.2%) 
+cubemapsamples          77/1024         1232/16384    ( 7.5%) 
+overlays                 7/512          2464/180224   ( 1.4%) 
+LDR lightdata         [variable]           0/0        ( 0.0%) 
+HDR lightdata         [variable]    40254816/0        ( 0.0%) 
+visdata               [variable]      351164/16777216 ( 2.1%) 
+entdata               [variable]      203279/393216   (51.7%) 
+LDR ambient table     2544/65536       10176/262144   ( 3.9%) 
+HDR ambient table     2544/65536       10176/262144   ( 3.9%) 
+LDR leaf ambient      2544/65536       71232/1835008  ( 3.9%) 
+HDR leaf ambient     12272/65536      343616/1835008  (18.7%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/17722    ( 0.0%) 
+pakfile               [variable]    27942995/0        ( 0.0%) 
+physics               [variable]      796797/4194304  (19.0%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 2
+
+Total triangle count: 44488
+Writing c:\users\olive\documents\github\de_neuhausen\levels\de_neuhausen.bsp
+20 minutes, 49 seconds elapsed
