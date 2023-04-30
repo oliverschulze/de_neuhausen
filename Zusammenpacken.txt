@@ -1,0 +1,34 @@
+VIDE:
+PACK File Lump Editor starten.
+OPEN
+cstrike/maps/de_neuhausen.bsp laden
+Scan
+Auto
+Apply
+Save
+
+
+Kopieren von de_neuhausen.bsp unter cstrike/maps nach de_neuhausen_betax.bsp
+
+CStrike starten
+de_neuhausen_betax laden
+sv_cheats 1
+buildcubemaps
+
+VIDE:
+PACK File Lump Editor starten.
+OPEN
+cstrike/maps/de_neuhausen_betax.bsp laden
+Scan
+Auto
+Apply
+
+resource/overviews/de_neuhausen.txt kopieren auf resource/overviews/de_neuhausen_betax.txt
+In der Datei oben de_neuhausen_betax eintragen
+
+IN vide auf add
+die Overview Datei laden
+
+Save
+
+
