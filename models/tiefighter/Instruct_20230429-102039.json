@@ -1,0 +1,38 @@
+{
+  "data": [
+    [
+      "Hello who are you?",
+      "\ud83d\ude0a to meet you! I am an artificial intelligence trained in the English language, designed to assist users with various tasks such as answering questions or providing information on a wide range of topics. How can I help you today?"
+    ],
+    [
+      "",
+      "\ud83d\ude03 to meet you too! As an AI language model, my purpose is to provide assistance and answer any questions you may have. Please feel free to ask me anything and I will do my best to help you out!"
+    ],
+    [
+      "What?",
+      "\ud83d\ude04 to be here and help you with whatever question or concern you might have. Can you please specify what you would like to know or discuss?"
+    ],
+    [
+      "introduce yourself",
+      "\ud83d\ude00 to make your acquaintance! My name is Assistant, but you can call me Assistant for short. I am an advanced AI language model that has been programmed to communicate effectively and provide helpful responses to users like you. It's lovely to meet you! Is there anything specific I can help you with today?"
+    ]
+  ],
+  "data_visible": [
+    [
+      "Hallo, wer bist du?",
+      "<audio src=\"file/extensions/silero_tts/outputs/Vicuna-v0_1682763095.wav\" controls></audio>"
+    ],
+    [
+      "",
+      "<audio src=\"file/extensions/silero_tts/outputs/Vicuna-v0_1682763112.wav\" controls></audio>"
+    ],
+    [
+      "was?",
+      "\ud83d\ude04 um hier zu sein und dir bei allen Fragen oder Bedenken zu helfen, die du haben k\u00f6nntest. K\u00f6nnen Sie bitte angeben, was Sie wissen oder besprechen m\u00f6chten?"
+    ],
+    [
+      "stell dich vor",
+      "\ud83d\ude00 zum Kennenlernen! Mein Name ist Assistent, aber Sie k\u00f6nnen mich auch kurz Assistent nennen. Ich bin ein fortschrittliches KI-Sprachmodell, das so programmiert wurde, dass es effektiv kommuniziert und Benutzern wie Ihnen hilfreiche Antworten gibt. Es ist sch\u00f6n, Sie kennenzulernen! Gibt es etwas Bestimmtes, bei dem ich Ihnen heute helfen kann?"
+    ]
+  ]
+}

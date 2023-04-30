@@ -1,0 +1,8 @@
+"de_neuhausen"
+{
+  "material" "overviews/de_neuhausen"
+
+  "pos_x" "-3465"
+  "pos_y" "2776"
+  "scale" "6.5"
+}
