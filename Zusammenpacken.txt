@@ -1,12 +1,26 @@
-VIDE:
+Frische BSP nehmen
+CStrike starten und buildcubemaps aufrufen
+
+VIDE starten:
 PACK File Lump Editor starten.
 OPEN
 cstrike/maps/de_neuhausen.bsp laden
 Scan
 Auto
 Apply
+
+ADD
+custom/materials/* als /materials hinzufügen
+custom/sound/galaxiane.wav als sound hinzufügen
+
+und als /materials/overviews (da alle 3 overiews texturen rein)
+
+Achtung, manchmal geht was kaputt und muss nochmal rein
 Save
 
+
+
+Alt:
 
 Kopieren von de_neuhausen.bsp unter cstrike/maps nach de_neuhausen_betax.bsp
 
@@ -28,6 +42,8 @@ In der Datei oben de_neuhausen_betax eintragen
 
 IN vide auf add
 die Overview Datei laden
+
+custom/sounds/galaxiane.wav dazupacken
 
 Save
 
