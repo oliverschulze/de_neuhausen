@@ -10,7 +10,7 @@ Auto
 Apply
 
 ADD
-custom/materials/* als /materials hinzufügen
+custom/de_neuhausen/materials/* als /materials hinzufügen
 custom/sound/galaxiane.wav als sound hinzufügen
 
 und als /materials/overviews (da alle 3 overiews texturen rein)

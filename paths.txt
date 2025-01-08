@@ -1,0 +1,27 @@
+Alles im Unterordner: c:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Source\cstrike\
+
+models/de_neuhausen/*.mdl
+models/de_neuhausen/*.phy
+models/de_neuhausen/*.vvd
+models/de_neuhausen/*.vtx
+
+materials/models/de_neuhausen/*.vmt
+materials/models/de_neuhausen/*.vtf
+materials/overviews/*.vmt
+materials/overviews/*.vtf
+
+custom/de_neuhausen/materials/*.vtf
+custom/de_neuhausen/materials/*.vmt
+
+custom/de_neuhausen/Sound/*.wav
+
+resource/overviews/de_neuhausen.txt
+
+maps/de_neuhausen.bsp
+
+custom_lights.rad
+cfg/overviewexec.cfg
+
+# ? glaube nicht notwendig #
+../bin/Prefabs/*.vmf
+

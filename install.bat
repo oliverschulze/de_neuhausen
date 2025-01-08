@@ -103,6 +103,8 @@ copy prefabs\*.vmf "C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike
 
 copy videos\*.vmt "C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Source\cstrike\custom\de_neuhausen\materials"
 copy videos\*.vtf "C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Source\cstrike\custom\de_neuhausen\materials"
+
+md "C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Source\cstrike\custom\de_neuhausen\sound"
 copy videos\*.wav "C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Source\cstrike\custom\de_neuhausen\sound"
 
 rem *** copy all vtf and vmt of models ***
