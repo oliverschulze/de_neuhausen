@@ -1,0 +1,1 @@
+"C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Source\hl2.exe" -dev -console -allowdebug -hijack -game "C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Source\cstrike" +map "de_neuhausen"

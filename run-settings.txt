@@ -1,0 +1,15 @@
+
+game exe
+-dev -console -allowdebug -hijack -game $gamedir +map $file
+
+light
+-lights custom_lightsx.rad -textureshadows -staticproppolys -staticproplighting -bounce 2 -noextra -hdr -game $gamedir $path\$file
+
+vis
+-fast -game $gamedir $path\$file
+
+full
+-lights custom_lights.rad -textureshadows -staticproppolys -staticproplighting  -ldr -final -game $gamedir $path\$file
+
+superfast
+-lights custom_lightsx.rad -bounce 0 -noextra -hdr -game $gamedir $path\$file
