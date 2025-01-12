@@ -5,15 +5,45 @@ VIDE starten:
 PACK File Lump Editor starten.
 OPEN
 cstrike/maps/de_neuhausen.bsp laden
-Scan
-Auto
-Apply
+#Scan
+#Auto
+#Apply
 
 ADD
-custom/de_neuhausen/materials/* als /materials hinzufügen
-custom/sound/galaxiane.wav als sound hinzufügen
+\custom\de_neuhausen\materials\* -> \materials
+\custom\de_neuhausen\sound\galaxiane -> \sound
+\materials\models\de_neuhausen\* -> \materials\models\de_neuhausen
+\models\de_neuhausen\* -> \models\de_neuhausen
+\resource\overviews\de_neuhausen -> \resource\overviews
+\materials\overviews\* -> \materials\overviews
 
-und als /materials/overviews (da alle 3 overiews texturen rein)
+(Hinweis: bei Auswahl des Typs ok drücken, nichts wählen und dann den String eintragen, also zum Beispiel /materials/overviews)
+
+SAVE
+
+
+
+
+
+-----
+
+alt
+
+#custom/de_neuhausen/materials/* als /materials hinzufügen
+custom/de_neuhausen/materials/*.vtf als /materials/maps/de_neuhausen hinzufügen
+custom/de_neuhausen/sound/galaxiane.wav als sound hinzufügen
+
+materials/overviews/* als /materials/overviews (da alle 3 overiews texturen rein) /materials/overviews/de_neuhausen
+
+models/de_neuhausen/* als /models (/models/de_neuhausen)
+materials/models/de_neuhausen/* als /materials/models/de_neuhausen
+resource\overviews
+
+Sound
+phy
+map materials
+
+(Hinweis: bei Auswahl des Typs ok drücken, nichts wählen und dann den String eintragen, also zum Beispiel /materials/overviews)
 
 Achtung, manchmal geht was kaputt und muss nochmal rein
 Save
